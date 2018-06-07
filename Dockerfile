@@ -3,6 +3,7 @@ FROM ubuntu:16.04
 MAINTAINER "Leonardo Bonetti https://hub.docker.com/u/leonbonetti/"
 
 LABEL Description "Image to run bitcoin full node"
+LABEL Release "1.0"
 
 VOLUME /bitcoin
 
